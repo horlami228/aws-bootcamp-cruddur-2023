@@ -3,12 +3,13 @@ services:
     image: postgres:13-alpine
     restart: always
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=horlami
+      - POSTGRES_PASSWORD=password1
     ports:
       - '5432:5432'
     volumes: 
       - db:/var/lib/postgresql/data
+  
   dynamodb-local:
     # https://stackoverflow.com/questions/67533058/persist-local-dynamodb-data-in-volumes-lack-permission-unable-to-open-databa
     # We needed to add user:root to get this working.
