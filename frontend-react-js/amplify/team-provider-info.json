@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-crudder-dev-205607-authRole",
+      "UnauthRoleArn": "arn:aws:iam::406682523795:role/amplify-crudder-dev-205607-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::406682523795:role/amplify-crudder-dev-205607-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-crudder-dev-205607-deployment",
+      "UnauthRoleName": "amplify-crudder-dev-205607-unauthRole",
+      "StackName": "amplify-crudder-dev-205607",
+      "StackId": "arn:aws:cloudformation:us-east-1:406682523795:stack/amplify-crudder-dev-205607/30abd270-a8e8-11ee-9e2e-0a182c1836f5",
+      "AmplifyAppId": "d7jmqyyliq1yj"
+    },
+    "categories": {
+      "auth": {
+        "crudder5bf6c5f7": {}
+      }
+    }
+  }
+}
