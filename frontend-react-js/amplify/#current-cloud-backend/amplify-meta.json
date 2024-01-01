@@ -1,0 +1,60 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-crudder-dev-205607-authRole",
+      "UnauthRoleArn": "arn:aws:iam::406682523795:role/amplify-crudder-dev-205607-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::406682523795:role/amplify-crudder-dev-205607-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-crudder-dev-205607-deployment",
+      "UnauthRoleName": "amplify-crudder-dev-205607-unauthRole",
+      "StackName": "amplify-crudder-dev-205607",
+      "StackId": "arn:aws:cloudformation:us-east-1:406682523795:stack/amplify-crudder-dev-205607/30abd270-a8e8-11ee-9e2e-0a182c1836f5",
+      "AmplifyAppId": "d7jmqyyliq1yj"
+    }
+  },
+  "auth": {
+    "crudder5bf6c5f7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL",
+          "NAME",
+          "PREFERRED_USERNAME"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-crudder-dev-205607-deployment/amplify-cfn-templates/auth/crudder5bf6c5f7-cloudformation-template.json",
+        "logicalId": "authcrudder5bf6c5f7"
+      },
+      "lastPushTimeStamp": "2024-01-01T21:01:06.000Z",
+      "output": {
+        "UserPoolId": "us-east-1_DQ9G5Zg9u",
+        "AppClientIDWeb": "7tjp3lbku5kfeijh0oik7mok1c",
+        "AppClientID": "7ok0d97ff3c9jquuopc2rbjtq2",
+        "IdentityPoolId": "us-east-1:a711ec84-8f0f-4acd-96c2-f43862345ed9",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:406682523795:userpool/us-east-1_DQ9G5Zg9u",
+        "IdentityPoolName": "crudder5bf6c5f7_identitypool_5bf6c5f7__dev",
+        "UserPoolName": "crudder5bf6c5f7_userpool_5bf6c5f7"
+      },
+      "lastPushDirHash": "ZO516+0rfp3A1I2Uc0obO8mt4Y8="
+    }
+  }
+}
